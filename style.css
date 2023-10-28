@@ -39,6 +39,10 @@ body {
     header {
         margin: 1rem;
     }
+    
+    #hero {
+        padding: 1rem;
+    }
   }
 
 
