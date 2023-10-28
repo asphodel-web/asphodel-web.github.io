@@ -61,7 +61,8 @@ body {
     height: fit-content;
     border-radius: 30px;
     padding: 0.5rem;
-    
+    display: flex;
+    justify-content: center;
   }
   
   #hero h2 {
