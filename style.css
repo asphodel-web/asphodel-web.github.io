@@ -84,6 +84,7 @@ body {
     background-color: rgb(197, 121, 197);
     padding: 1rem;
     border-radius: 30px;
+    content-align: center;
   }
   
   #services h2 {
