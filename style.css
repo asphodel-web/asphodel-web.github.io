@@ -95,7 +95,8 @@ body {
     padding: 1rem;
     border-radius: 30px;
     text-align: center;
-    display: list-style-type;
+    display: flex;
+    justify-content: center;
   }
   
   #services h2 {
