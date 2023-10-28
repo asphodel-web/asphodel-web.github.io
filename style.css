@@ -63,6 +63,7 @@ body {
     padding: 0.5rem;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   
   #hero h2 {
@@ -98,6 +99,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   
   #services h2 {
