@@ -86,15 +86,15 @@ body {
     background-color: #000;
   }
   
-  .learn {
+  /*.learn {
       align-content: center;
-  }
+  }*/
   
   #services {
     background-color: rgb(197, 121, 197);
     padding: 1rem;
     border-radius: 30px;
-    align-content: center;
+    text-align: center;
   }
   
   #services h2 {
