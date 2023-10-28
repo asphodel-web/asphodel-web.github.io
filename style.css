@@ -126,6 +126,7 @@ body {
       border-radius: 30px;
       background-color: rgba(57, 11, 57, 0.558);
       padding: 0.5rem 1rem;
+      text-decoration: none;
   }
   
   #testimonials {
@@ -140,4 +141,9 @@ body {
   
   #testimonials ul {
     list-style-type: none;
+    font-size: 1.2rem;
+    
+  }
+  footer {
+      color: purple;
   }
