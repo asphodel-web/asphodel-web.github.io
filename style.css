@@ -86,6 +86,10 @@ body {
     background-color: #000;
   }
   
+  .learn {
+      align-content: center;
+  }
+  
   #services {
     background-color: rgb(197, 121, 197);
     padding: 1rem;
