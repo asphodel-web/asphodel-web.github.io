@@ -85,8 +85,9 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background-color: #000;
+    background-color: rgba(57, 11, 57, 0.558);;
     text-align: center;
+    border-radius: 30px;
   }
   
   /*.learn {
@@ -121,6 +122,8 @@ body {
   
   #services a {
       text-align: center;
+      border-radius: 30px;
+      background-color: rgba(57, 11, 57, 0.558);;
   }
   
   #testimonials {
