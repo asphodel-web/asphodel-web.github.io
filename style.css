@@ -3,6 +3,10 @@ body {
     background-color: yellow;
     color: white;
   }
+
+p {
+ font-size: 1.2rem;
+}
   
   header {
     background-color: purple;
