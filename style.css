@@ -52,12 +52,17 @@ p {
     #hero {
         padding: 1rem;
     }
+    
+    section {
+        margin-bottom: 2rem;
+        border-radius: 30px;
+    }
   }
 
 
   
   section {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-radius: 30px;
   }
   
