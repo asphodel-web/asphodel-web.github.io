@@ -1,3 +1,24 @@
+@media (min-width: 800px) {
+
+  main {
+      padding: 1rem;
+      border-radius: 30px;
+    }
+
+  header {
+      margin: 1rem;
+  }
+  
+  #hero {
+      padding: 1rem;
+  }
+  
+  section {
+      margin-bottom: 2rem;
+  }
+}
+
+
 body {
     font-family: sans-serif;
     background-color: #E7D73A;
@@ -37,28 +58,6 @@ p {
     margin: 0.5rem 0rem 0.5rem 0.5rem;
     display: inline-block;
   }
-
-  @media (min-width: 800px) {
-    /* CSS that should be displayed if width is equal to or less than 800px goes here */
-    main {
-        padding: 1rem;
-        border-radius: 30px;
-      }
-
-    header {
-        margin: 1rem;
-    }
-    
-    #hero {
-        padding: 1rem;
-    }
-    
-    section {
-        margin-bottom: 2rem;
-        border-radius: 30px;
-    }
-  }
-
 
   
   section {
