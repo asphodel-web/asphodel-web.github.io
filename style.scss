@@ -1,0 +1,186 @@
+/* SCSS HEX */
+$caribbean-current: #16697aff;
+$space-cadet: #1b1f3bff;
+$vivid-sky-blue: #5ad2f4ff;
+$white: #ffffffff;
+$cinnabar: #f2542dff;
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-right: linear-gradient(90deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-bottom: linear-gradient(180deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-left: linear-gradient(270deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-top-right: linear-gradient(45deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-bottom-right: linear-gradient(135deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-top-left: linear-gradient(225deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-bottom-left: linear-gradient(315deg, #16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+$gradient-radial: radial-gradient(#16697aff, #1b1f3bff, #5ad2f4ff, #ffffffff, #f2542dff);
+
+body {
+    font-family: sans-serif;
+    background-color: #E7D73A;
+    color: white;
+  }
+
+p {
+ font-size: 1.2rem;
+}
+
+::selection {
+    background: #E7D73A
+}
+  
+  header {
+    background-color: purple;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+  }
+  
+  nav {
+    padding: 0.5rem;
+  }
+  
+  nav a {
+    background-color: rgba(57, 11, 57, 0.558);
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    border-radius: 30px;
+    margin: 0.5rem 0rem 0.5rem 0.5rem;
+    display: inline-block;
+  }
+
+  
+  section {
+    margin-bottom: 1rem;
+    border-radius: 30px;
+  }
+  
+  #hero {
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(hero-img.webp);
+    background-size: cover;
+    background-position: center;
+    height: fit-content;
+    border-radius: 30px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #hero h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    border-radius: 30px;
+  }
+  
+  #hero p {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 30px;
+  }
+  
+  #hero a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: rgba(57, 11, 57, 0.7);;
+    text-align: center;
+    border-radius: 30px;
+  }
+  
+  /*.learn {
+      align-content: center;
+  }*/
+  
+  .services {
+    background-color: purple;
+    padding: 1rem;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .services ul {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 30px;
+  }
+  
+  .services li {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+  }
+  
+  .services a {
+      text-align: center;
+      border-radius: 30px;
+      background-color: rgba(57, 11, 57, 0.558);
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: white;
+  }
+  
+  #testimonials {
+    background-color: purple;
+    padding: 1rem;
+  }
+  
+  #testimonials h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  #testimonials ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    
+  }
+
+  @media (min-width: 800px) {
+
+    main {
+        padding: 1rem;
+        border-radius: 30px;
+      }
+  
+    header {
+        margin: 1rem;
+    }
+    
+    #hero {
+        padding: 1rem;
+    }
+    
+    section {
+        margin-bottom: 2rem;
+        max-width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .page {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .page > * {
+      width: 100%;
+    }
+  }
