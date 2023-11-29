@@ -137,6 +137,11 @@ p {
       text-decoration: none;
       color: $white;
   }
+
+  #inline-a {
+    background-color: transparent;
+    text-decoration-line: underline;
+  }
   
   #testimonials {
     background-color: $vivid-sky-blue;
