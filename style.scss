@@ -161,6 +161,7 @@ p {
 
   #c-suite {
     display: flex;
+    justify-content: space-between;
   }
 
   @media (min-width: 760px) {
