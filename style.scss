@@ -125,6 +125,11 @@ p {
     flex-direction: column;
     color: $white;
   }
+
+  #tumblr-embeded-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   
   .services h2 {
     font-size: 2rem;
