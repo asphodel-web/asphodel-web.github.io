@@ -183,6 +183,10 @@ p {
     flex-wrap: wrap;
   }
 
+  .tall-text {
+    line-height: 1.8;
+  }
+
   @media (min-width: 760px) {
 
     main {
